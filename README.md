@@ -1,5 +1,5 @@
 # MassSpecBlocks
-MassSpecBlocks: Database of Sequences and Building Blocks of Microbial Metabolites for Mass Spectra Analysis is open source, web application to manage own user databases of chemical structures like NRPs and to find structures on other chemical projects like [Pubchem](https://pubchem.ncbi.nlm.nih.gov), [ChemSpider](http://www.chemspider.com), [Norine](https://bioinfo.lifl.fr/norine/) and [ChEBI](https://www.ebi.ac.uk/chebi/downloadsForward.do). Application provides export format to for open source program [Cyclobranch](https://ms.biomed.cas.cz/cyclobranch/docs/html/) from Jiří Novák (Academy of Sciences of the Czech Republic).
+MassSpecBlocks: Database of Sequences and Building Blocks of Microbial Metabolites for Mass Spectra Analysis is open source, web application to manage own user databases of chemical structures like NRPs and to find structures on other chemical projects like [Pubchem](https://pubchem.ncbi.nlm.nih.gov), [ChemSpider](http://www.chemspider.com), [Norine](https://bioinfo.lifl.fr/norine/) and [ChEBI](https://www.ebi.ac.uk/chebi/downloadsForward.do). Application provides export format to for open source program [Cyclobranch](https://ms.biomed.cas.cz/cyclobranch/docs/html/) from Jiří Novák (Laboratory of Molecular Structure Characterization - Academy of Sciences of the Czech Republic).
 
 # Quick links
 
