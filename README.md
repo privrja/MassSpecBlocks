@@ -1,5 +1,5 @@
 # MassSpecBlocks
-MassSpecBlocks is open source, web application to manage own user databases of chemical structures like NRPs and to find structures on other chemical projects like [Pubchem](https://pubchem.ncbi.nlm.nih.gov), [ChemSpider](http://www.chemspider.com), [Norine](https://bioinfo.lifl.fr/norine/) and [ChEBI](https://www.ebi.ac.uk/chebi/downloadsForward.do).
+MassSpecBlocks: Database of Sequences and Building Blocks of Microbial Metabolites for Mass Spectra Analysis is open source, web application to manage own user databases of chemical structures like NRPs and to find structures on other chemical projects like [Pubchem](https://pubchem.ncbi.nlm.nih.gov), [ChemSpider](http://www.chemspider.com), [Norine](https://bioinfo.lifl.fr/norine/) and [ChEBI](https://www.ebi.ac.uk/chebi/downloadsForward.do).
 
 # Quick links
 
