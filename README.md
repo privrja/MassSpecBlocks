@@ -14,3 +14,5 @@ Application has separated frontend and backend. **Frontend** is developed in Rea
 
 # Documentation
 TODO all documentation and detailed descriptions should be in this repo.
+
+Documentation of the databse structures is in [DataModelDescription.md](https://github.com/privrja/MassSpecBlocks/blob/main/DataModelDescription.md).
