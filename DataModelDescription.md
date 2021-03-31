@@ -50,8 +50,8 @@ The sequence is in the given Container and may have a SequenceFamily tag.
 | c_modification_id | INT          | FOREIGN KEY           | Reference to c terminal Modification        |
 | container_id      | INT          | FOREIGN KEY, NOT NULL | Reference to Container                      |
 | sequence_type     | VARCHAR(255) | NOT NULL, DEFAULT 'other' | Values: linear, cyclic, branched, branch-cyclic, linear-polyketide, cyclic-polyketide, other |
-| sequene           | VARCHAR(500) | NOT NULL              | Comptuted sequence of block acronnyms       |
-| sequence_original | VARCHAR(500) | NOT NULL              | Sequence with numbers not acronyms, used for deleting acronyms from sequence |
+| sequene           | VARCHAR(500) |                       | Comptuted sequence of block acronnyms       |
+| sequence_original | VARCHAR(500) |                       | Sequence with numbers not acronyms, used for deleting acronyms from sequence |
 | sequence_name     | VARCHAR(255) | NOT NULL              | Name of sequence ex.: ```Cyclosporin A```   |
 | sequence_formula  | VARCHAR(255) | NOT NULL              | Chemical formmula ex.: ```C62H111N11O12```  |
 | sequence_mass     | DOUBLE       |                       | Mass of molecule ex.: ```1201.841368```     |
@@ -60,8 +60,8 @@ The sequence is in the given Container and may have a SequenceFamily tag.
 | source            | SMALLINT     |                       | Reference to other databases (can be extended), defined: PUBCHEM = 0, CHEMSPIDER = 1, NORINE = 2, const PDB = 3, CHEBI = 4 |
 | identifier        | VARCHAR(255) |                      | Unique identifier of molecula in another database |
 | decays            | VARCHAR(255) |                      | Auxiliary variable for coloring decay points      |
-| unique_block_count| INT          | NOT NULL             | Unique number of blocks used in sequence, used for similarity search |
-| block_count       | INT          | NOT NULL             | Number of blocks used in sequence (duplicit blocks are count in), used for similarity search |
+| unique_block_count| INT          | NOT NULL, DEFAULT 0  | Unique number of blocks used in sequence, used for similarity search |
+| block_count       | INT          | NOT NULL, DEFAULT 0  | Number of blocks used in sequence (duplicit blocks are count in), used for similarity search |
 
 **UNIQUE INDEX** on sequence_name and container_id columns.
 
