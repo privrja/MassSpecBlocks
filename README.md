@@ -14,7 +14,7 @@ Application has separated frontend and backend. **Frontend** is developed in Rea
 
 # Documentation
 
-TODO all documentation and detailed descriptions should be in this repo.
+TODO all documentation and detailed descriptions should be in this repo. Need to do Have to use application and how to obtain ChemSpider apikey.
 
 How to run application localy for development is described in [Local.md](https://github.com/privrja/MassSpecBlocks/blob/main/Local.md).
 
