@@ -13,8 +13,11 @@ MassSpecBlocks: Database of Sequences and Building Blocks of Microbial Metabolit
 Application has separated frontend and backend. **Frontend** is developed in React with typescript and has its own [frontend repo](https://github.com/privrja/thesis-frontend-react). **Backend** is written in PHP with Symfony framework, [backend repo](https://github.com/privrja/thesis). Application is developed for Mysql 8 /MariaDB 10, but when using Symfony you can create your migrations for another database. The application uses many other libraries like [SmilesDrawer](https://github.com/privrja/smilesDrawer) from **Daniel Probst** to draw chemical structures from SMILES format or [JSME](https://jsme-editor.github.io) from **Peter Ertl and Bruno Bienfait** to editing chemical structures. Application is based on previous application [Bbdgnc](https://github.com/privrja/bbdgnc). The application was developed within the diploma thesis MassSpecBlocks: **MassSpecBlocks: Database of Sequences and Building Blocks of Microbial Metabolites for Mass Spectra Analysis**, Jan Přívratský, FIT CTU Prague, 2021. Supervisor **Jiří Novák**
 
 # Documentation
+
 TODO all documentation and detailed descriptions should be in this repo.
 
 How to run application localy for development is described in [Local.md](https://github.com/privrja/MassSpecBlocks/blob/main/Local.md).
+
 Documentation of the deployment to server is in [Deploy.md](https://github.com/privrja/MassSpecBlocks/blob/main/Deploy.md). 
+
 Documentation of the database structures is in [DataModelDescription.md](https://github.com/privrja/MassSpecBlocks/blob/main/DataModelDescription.md).
