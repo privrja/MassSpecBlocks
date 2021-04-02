@@ -16,7 +16,7 @@ Then you can install dependencies throught composer.
 
 `composer install`
 
-To set up connection to your database open file .env and set variable DATABASE_URL=mysql://user:password@address:port/database_name?serverVersion=X.X
+To set up connection to your database open file .env and set variable `DATABASE_URL=mysql://user:password@address:port/database_name?serverVersion=X.X`
 On dev server you should have `APP_ENV=dev` and `APP_DEBUG=1`.
 
 Then you can fill database using script or use prepared command in composer.json.
