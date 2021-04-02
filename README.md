@@ -21,3 +21,6 @@ How to run application localy for development is described in [Local.md](https:/
 Documentation of the deployment to server is in [Deploy.md](https://github.com/privrja/MassSpecBlocks/blob/main/Deploy.md). 
 
 Documentation of the database structures is in [DataModelDescription.md](https://github.com/privrja/MassSpecBlocks/blob/main/DataModelDescription.md).
+
+When you approach to /api/doc on backend there is a documentation page for REST API.
+
