@@ -33,7 +33,7 @@ To insert data you can use `php bin/console doctrine:fixtures:load --group=dev -
 On dev is testing data and in prod, there are more data similar to production.
 Same dev/prod difference like in lines above.
 
-But for really production data you need to use [create-insert script]().
+But for really production data you need to use [create-insert script](https://github.com/privrja/MassSpecBlocks/blob/main/create-insert-script.sql).
 For the first run, you need to comment first lines where are commands to drop tables, that you don't have in the database.
 But when you used it periodically it can be appropriate to have them there.
 Create script assume that database is already created and launched.
