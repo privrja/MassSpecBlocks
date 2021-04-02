@@ -46,6 +46,8 @@ To stop server use `symfony server:stop`
 
 To run tests you should run `composer test`
 
+When you approach to /api/doc there is a documentation page for REST API.
+
 # Frontend
 
 Prerequisites for the frontend is to have [npm](https://www.npmjs.com/get-npm) installed.
