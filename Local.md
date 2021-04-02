@@ -7,7 +7,7 @@ First of all you need running Mysql/MariaDB database, where application can stor
 Other prerequizities is to have installed [PHP](https://www.php.net) >= 7.2.5, [composer](https://getcomposer.org/download/) and [symfony cli](https://symfony.com/download).
 I recommend set all available on console.
 
-When this criteria is met you can clone backend project from GitHub.
+When this criteria is met, you can clone backend project from GitHub.
 
 `git clone https://github.com/privrja/thesis.git`
 
