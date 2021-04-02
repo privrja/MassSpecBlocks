@@ -10,6 +10,7 @@ I recommend set all available on console.
 When this criteria is met you can clone backend project from GitHub.
 
 `git clone https://github.com/privrja/thesis.git`
+
 `cd thesis`
 
 Then you can install dependencies throught composer.
@@ -52,6 +53,7 @@ Prerequizities for frontend is to have [npm](https://www.npmjs.com/get-npm) inst
 Clone project fron GitHub.
 
 `git clone https://github.com/privrja/thesis-frontend-react.git`
+
 `cd thesis-frontend-react`
 
 Then install dependecias via npm.
