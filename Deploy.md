@@ -3,7 +3,7 @@
 
 ## Database
 
-Use create/insert script to prepare database structure [create_insert_script.sql](https://github.com/privrja/thesis-analysis/blob/master/create_insert_script_2021_03_28.sql). Script at start contains drops for tables and constraints. If you don't have these tables in the database before, you should comment first part of the script.
+Use create/insert script to prepare database structure [create_insert_script.sql](https://github.com/privrja/thesis-analysis/blob/master/create_insert_script_2021_03_28.sql). Script at start contains drops for tables and constraints. If you don't have these tables in the database before, you should comment first part of the script. Script assume, that database was already created and launched.
 
 ## Backend
 
