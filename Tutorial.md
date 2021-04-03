@@ -9,6 +9,7 @@ The search parameter is restricted by a selected chemical database.
 Next table shows search restrictions.
 In the Norine database, you can download all database data and then search in by attributes that are not provided in API, but this is **slow**.
 
+
 | Database   | API  | name    | SMILES  | formula | mass        | identifier |
 | ---------- | ---- | ------- | ------- | ------- | ----------- | ---------- |
 | Pubchem    | REST | **Yes** | **Yes** | **Yes** | No          | **Yes**    |
@@ -16,6 +17,7 @@ In the Norine database, you can download all database data and then search in by
 | ChEBI      | SOAP | **Yes** | **Yes** | **Yes** | **Yes**     | **Yes**    |
 | Norine     | REST | **Yes** | No      | Slow    | No          | **Yes**    |
 | PDB        | REST | No      | No      | No      | No          | **Yes**    |
+
 
 When you fill source database and search param, the main remaining thing is to fill search param and click on the Find button.
 Now there are 3 possibilities what will happen.
@@ -25,7 +27,9 @@ When there are more results is show under the form and you can choose one of the
 In the list, you can click on reference identifier and then you show structure in the source database page.
 When you click on a small preview then the structure is increase to a full page.
 
-For example, you could search roseotoxin by name on Pubchem. ![roseotoxin_find](https://user-images.githubusercontent.com/36856494/113470341-2cd1a580-9455-11eb-9d5c-2b722e9eace1.png)
+For example, you could search roseotoxin by name on Pubchem.
+
+![roseotoxin_find](https://user-images.githubusercontent.com/36856494/113470341-2cd1a580-9455-11eb-9d5c-2b722e9eace1.png)
 
 On buttons in the bottom part of the form are more actions other than find.
 You can transfer isomeric SMILES to canonical (one-way transformation), you can transfer SMILES to unique SMILES representation. 
@@ -34,7 +38,10 @@ If you have an account and select a container with RW rights, you can save the s
 The most important function is to find building blocks of sequence.
 Before you do that you can see red bonds (edges) on sequence preview. These are the decay points of peptide or ester bonds.
 You can (un)select these bonds by clicking the bond on the preview.
-After that, you can click on the button Build Blocks and wait for the application to show building blocks under the preview. ![roseotoxin_blocks](https://user-images.githubusercontent.com/36856494/113470797-7f609100-9458-11eb-9b3a-6e5862d6d05e.png)
+After that, you can click on the button Build Blocks and wait for the application to show building blocks under the preview.
+
+![roseotoxin_blocks](https://user-images.githubusercontent.com/36856494/113470797-7f609100-9458-11eb-9b3a-6e5862d6d05e.png)
+
 After that operation you can see information about sequence type (linear, cyclic, branched, branch-cyclic, linear-polyketide, cyclic-polyketide, other), sequence blocks notation, pre-filled family by similarity and you can set up organisms and end modifications.
 Next, you can see a table with blocks. When you are not logged in, blocks are searched in the default Nonribosomal Peptides and Siderophores container.
 If some block is not found then is find on Pubchem by similarity search. 
