@@ -69,6 +69,7 @@ Run server by
 
 If you would like to build code, run `npm build` and for tests run `npm test`
 
+## CORS
 
 To test on local machine  I recommend use browser without CORS policy check. But never use this for real browsing. Example:
 
