@@ -53,25 +53,25 @@ Now same blocks are all edit together at once, but if you would like to change t
 
 # Containers
 
-As i mentioned in previous section, there are containers.
-Container is like an envelope for a sequences, blocks, modifications, organism, families and others grouped together.
+As I mentioned in the previous section, there are containers.
+The container is like an envelope for sequences, blocks, modifications, organisms, families, and others grouped together.
 There are PUBLIC containers: Nonribosomal Peptides and Siderophores, Proteinogenic Amino Acids and Siderophores and Secondary Metabolites.
-Nonribosomal Peptides and Siderophores is selected by default, it contains NRPs and siderophores sequences.
-Proteinogenic Amino Acids containes only 20 Proteinogenic Amino Acid blocks.
-Siderophores and Secondary Metabolites is specific in that it doesn't contains SMILES.
-It's used in CycloBranch program for mass spectrometry as a whole, without blocks.
-You can manage containers on Containers page, whre you see your PRIVATE containers and PUBLIC containers.
-Other pages like Sequences, Blocks and Modifications are list with data about that entities.
-Data on pages are always showed from selected container.
+Nonribosomal Peptides and Siderophores are selected by default, it contains NRPs and siderophores sequences.
+Proteinogenic Amino Acids contains only 20 Proteinogenic Amino Acid blocks.
+Siderophores and Secondary Metabolites is specific in that it doesn't contain SMILES data.
+It's used in the CycloBranch program for mass spectrometry as a whole, without blocks.
+You can manage containers on the Containers page, where you see your PRIVATE containers and PUBLIC containers.
+Other pages like Sequences, Blocks, and Modifications are list with data about that entities.
+Data on pages are always showed from the selected container.
 To create your containers you need to be login in application.
-PUBLIC containers is manage by admin.
+PUBLIC containers are managed by admin.
 
-There are 3 types of permissions: R, RW and RWM.
-Where R and RW is work as expected from name.
+There are 3 types of permissions: R, RW, and RWM.
+Where R and RW is work as expected from the name.
 RWM is to manage container.
-You have RWM role, when you create new container.
-with this role you can add/remove other users to access your container and assign them roles.
-On container detail page you can manage users with access to container and work with families and organisms.
+You have an RWM role when you create a new container.
+with this role, you can add/remove other users to access your container and assign them roles.
+On the container detail page, you can manage users with access to the container and work with families and organisms.
 
 ![containers](https://user-images.githubusercontent.com/36856494/113471676-3d3a4e00-945e-11eb-9882-7d5386f68129.png)
 ![container_detail](https://user-images.githubusercontent.com/36856494/113471686-54793b80-945e-11eb-8cd2-f66645df2448.png)
