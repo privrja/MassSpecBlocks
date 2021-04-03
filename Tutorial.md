@@ -49,5 +49,4 @@ The first column in the table indicates if the block is loaded from the database
 The next column is block preview, you can increase it to a full page by click on it.
 You can edit information in it by click on a row that you would like to edit (All tables in the application works like that).
 To edit block structure you can edit SMILES directly or use the button Edit to open JSME. 
-Now same block all edit together at once, but if you would like to change this behavior, you can unclick the checkbox above the table.
-
+Now same blocks are all edit together at once, but if you would like to change this behavior, you can unclick the checkbox above the table.
