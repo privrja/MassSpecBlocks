@@ -68,3 +68,9 @@ Run server by
 `npm start`
 
 If you would like to build code, run `npm build` and for tests run `npm test`
+
+
+To test on local machine  I recommend use browser without CORS policy check. But never use this for real browsing. Example:
+
+```”C:\Program Files (x86)\Google\Chrome\Application\chrome.exe” — disable-web-security — disable-gpu — user-data-dir=~/chromeTemp```
+
