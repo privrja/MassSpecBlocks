@@ -24,6 +24,8 @@ Setup `APP_SECRET` to a random hexadecimal 32 length string.
 
 `DATABASE_URL=mysql://user:password@address:port/databaseName?serverVersion=version`
 
+example for MariaDB: `DATABASE_URL=mysql://***@***.***:3306/msb?serverVersion=mariadb-10.4.17`
+
 Mail configuration is in .env too.
 
 To set up logging you need to set variable `SHELL_VERBOSITY`. Values for this are -1 (Error), 1 (Notice), 2 (Info), 3 (Debug). The log is stored to `var/log/dev.log`.
