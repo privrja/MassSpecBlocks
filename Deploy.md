@@ -30,7 +30,7 @@ Mail configuration is in .env too.
 To set up logging you need to set variable `SHELL_VERBOSITY`. Values for this are -1 (Error), 1 (Notice), 2 (Info), 3 (Debug). The log is stored to `var/log/dev.log`.
 
 
-In file Constants.php you should set up ENDPOINT and LOGOUT_TIME constants.
+In file  src/Constant/Constants.php you should set up ENDPOINT and LOGOUT_TIME constants.
 
 ### Install dependencies
 
