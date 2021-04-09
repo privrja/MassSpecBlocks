@@ -17,7 +17,6 @@ Use create/insert script to prepare database structure [create-insert-script.sql
 In .env file setup connection to the database and other properties.
 
 `APP_ENV=prod`
-(možná bych ještě ponechal dev, protože jakmile se něco pokazí tak lépe najdeme problém)
 
 `APP_DEBUG=0` or remove this line, because when APP_ENV is set up to prod then this is automatically set to zero.
 
