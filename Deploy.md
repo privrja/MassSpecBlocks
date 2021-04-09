@@ -3,7 +3,7 @@
 
 ## Database
 
-Use create/insert script to prepare database structure [create-insert-script.sql](https://github.com/privrja/MassSpecBlocks/blob/main/create-insert-script.sql). Script at start contains drops for tables and constraints. If you don't have these tables in the database before, you should comment first part of the script. Script assume, that database was already created and launched.
+Use create/insert script to prepare database structure [create-insert-script.sql](https://github.com/privrja/MassSpecBlocks/blob/main/create-insert-script.sql). Script at start contains drops for tables and constraints. If you don't have these tables in the database before, you should comment first part of the script. The script assumes that the database was already created and launched.
 
 ## Backend
 
@@ -21,7 +21,7 @@ In .env file setup connection to the database and other properties.
 
 `APP_DEBUG=0` or remove this line, because when APP_ENV is set up to prod then this is automatically set to zero.
 
-Setup `APP_SECRET` to a random 32 length string.
+Setup `APP_SECRET` to a random hexadecimal 32 length string.
 
 `DATABASE_URL=mysql://user:password@address:port/databaseName?serverVersion=version`
 
@@ -29,8 +29,9 @@ Mail configuration is in .env too.
 
 To set up logging you need to set variable `SHELL_VERBOSITY`. Values for this are -1 (Error), 1 (Notice), 2 (Info), 3 (Debug). The log is stored to `var/log/dev.log`.
 
-
 In file  src/Constant/Constants.php you should set up ENDPOINT and LOGOUT_TIME constants.
+
+Use `composer dump-env prod` for creating .env.local.php
 
 ### Install dependencies
 
@@ -54,7 +55,7 @@ Var folder is created automatically, it can fail when the application has not pe
 
 To check if is running, access it on the browser. On /api/doc would be a web page with documentation. Address /rest should return 401, because you need to log in.
 
-After that, you should log in as default users and change passwords to them. 
+After that, you should log in as default users and change passwords to them. (Recommended to do this using frontend)
 
 ### Frontend
 
@@ -68,6 +69,6 @@ Clone project from GitHub.
 You need to install dependencies using npm. Tutorial for installing npm is [here](https://www.npmjs.com/get-npm). After that only type: 
 `npm install --production`.
 
-In file Constatns.ts you have to set up backend ENDPOINT and URL_PREFIX for the frontend. Optionally you can set up a number of decimal places for mass and set if ID is showing on tables. In Finder, you can set up a proxy in ENDPOINTS. Actually is proxy set in files NorineFinder and ChebiFinder on variable ENDPOINT_URI.
+In file Constatns.ts you have to set up backend ENDPOINT and URL_PREFIX for the frontend. Optionally you can set up several decimal places for mass and set if ID is showing on tables. In Finder, you can set up a proxy in ENDPOINTS. Actually is proxy set in files NorineFinder and ChebiFinder on variable ENDPOINT_URI.
 
 After that, you can build the frontend using `npm build`. This creates a folder build that you would transfer to the server.
