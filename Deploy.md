@@ -72,4 +72,4 @@ You need to install dependencies using npm. Tutorial for installing npm is [here
 
 In file src/constant/Constants.ts you have to set up backend `ENDPOINT` and `URL_PREFIX` for the frontend. Optionally you can set up several decimal places for mass and set if ID is showing on tables. In Finder, you can set up a proxy in ENDPOINTS. Actually is proxy set in files `src/finder/NorineFinder` and `src/finder/ChebiFinder` on variable `ENDPOINT_URI`.
 
-After that, you can build the frontend using `npm build`. This creates a folder build that you would transfer to the server.
+After that, you can build the frontend using `npm run build`. This creates a folder build that you would transfer to the server.
