@@ -30,7 +30,7 @@ Mail configuration is in .env too.
 
 To set up logging you need to set variable `SHELL_VERBOSITY`. Values for this are -1 (Error), 1 (Notice), 2 (Info), 3 (Debug). The log is stored to `var/log/dev.log`.
 
-In file  src/Constant/Constants.php you should set up ENDPOINT and LOGOUT_TIME constants.
+In file `src/Constant/Constants`.php you should set up `ENDPOINT` and `LOGOUT_TIME` constants.
 
 Use `composer dump-env prod` for creating .env.local.php
 
@@ -70,6 +70,6 @@ Clone project from GitHub.
 You need to install dependencies using npm. Tutorial for installing npm is [here](https://www.npmjs.com/get-npm). After that only type: 
 `npm install --production`.
 
-In file Constatns.ts you have to set up backend ENDPOINT and URL_PREFIX for the frontend. Optionally you can set up several decimal places for mass and set if ID is showing on tables. In Finder, you can set up a proxy in ENDPOINTS. Actually is proxy set in files NorineFinder and ChebiFinder on variable ENDPOINT_URI.
+In file src/constant/Constants.ts you have to set up backend `ENDPOINT` and `URL_PREFIX` for the frontend. Optionally you can set up several decimal places for mass and set if ID is showing on tables. In Finder, you can set up a proxy in ENDPOINTS. Actually is proxy set in files `src/finder/NorineFinder` and `src/finder/ChebiFinder` on variable `ENDPOINT_URI`.
 
 After that, you can build the frontend using `npm build`. This creates a folder build that you would transfer to the server.
