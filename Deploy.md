@@ -57,7 +57,7 @@ Var folder is created automatically, it can fail when the application has not pe
 To check if is running, access it on the browser. On /api/doc would be a web page with documentation. Address /rest should return 401, because you need to log in.
 
 After that, you should log in as default users and change passwords to them. (Recommended to do this using frontend) 
-Passwords are hashed using bcrypt, if you would like to use another hashing algorithm you can change it in `config/packages/security.yaml`. When you do that, you should add to insert script emails on created users to change their passwords, because in insert script is password hashed in bcrypt.
+Passwords are hashed using bcrypt, if you would like to use another hashing algorithm you can change it in `config/packages/security.yaml`. When you do that, you should add to insert script emails on created users to change their passwords, because in insert script is password hashed in bcrypt. (Default passwords are: 12345678)
 
 ### Frontend
 
