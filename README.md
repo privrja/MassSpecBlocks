@@ -25,3 +25,12 @@ Documentation of the deployment to server is in [Deploy.md](https://github.com/p
 When you approach to /api/doc on backend there is a documentation page for REST API.
 
 There is a tutorial to obtain [ChemSpider API key](https://github.com/privrja/MassSpecBlocks/blob/main/ChemSpiderKey.md).
+
+# Versions
+
+Latest version is **1.0.0 Alpa** [1.0.0 Alpa backend](https://github.com/privrja/thesis/releases/tag/1.0.0) and [1.0.0 Alpa frontend](https://github.com/privrja/thesis-frontend-react/releases/tag/1.0.0), compatibile with SmilesDrawer [2.1.6 Evenstar](https://github.com/privrja/smilesDrawer/releases/tag/2.1.6)
+
+More info about version compatibility you can find in file [Version.md](https://github.com/privrja/MassSpecBlocks/blob/main/Version.md)
+
+
+
