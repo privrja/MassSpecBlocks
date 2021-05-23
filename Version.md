@@ -7,7 +7,7 @@ Recommended names: ~~Alpa~~, ~~Kelpie~~, Lešij, Běs, Striga, Kostěj, Zeugl, K
 
 | Name            | Backend version                                               | Frontend version                                                             | Smiles Drawer version                                               | Witcher Wiki                                    |
 | --------------- | ------------------------------------------------------------- | ---------------------------------------------------------------------------- | ------------------------------------------------------------------- | ----------------------------------------------- |
-| **Alpa**        | [1.0.0](https://github.com/privrja/thesis/releases/tag/1.0.0) | [1.0.0](https://github.com/privrja/thesis-frontend-react/releases/tag/1.0.0) | [2.1.6](https://github.com/privrja/smilesDrawer/releases/tag/2.1.6) | [Alpa](https://witcher.fandom.com/wiki/Alp)     |
+| **Alpa**        | [1.0.1](https://github.com/privrja/thesis/releases/tag/1.0.0) | [1.0.1](https://github.com/privrja/thesis-frontend-react/releases/tag/1.0.0) | [2.1.6](https://github.com/privrja/smilesDrawer/releases/tag/2.1.6) | [Alpa](https://witcher.fandom.com/wiki/Alp)     |
 | Kelpie (Bbdgnc) | [1.0.3](https://github.com/privrja/bbdgnc/releases/tag/1.0.2) |                                                                              | [1.1.8](https://github.com/privrja/smilesDrawer/releases/tag/1.1.8) | [Kelpie](https://witcher.fandom.com/wiki/Kelpie)|
 
 
