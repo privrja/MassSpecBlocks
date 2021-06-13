@@ -57,7 +57,7 @@ The sequence is in the given Container and may have a SequenceFamily tag.
 | sequence_mass     | DOUBLE       |                       | Mass of molecule ex.: ```1201.841368```     |
 | sequence_smiles   | VARCHAR(4000)|                       | Description of molecula by SMILES format ex.: ```CCC1C(=O)N(CC(=O)N(C(C(=O)NC(C(=O)N(C(C(=O)NC(C(=O)NC(C(=O)N(C(C(=O)N(C(C(=O)N(C(C(=O)N(C(C(=O)N1)C(C(C)CC=CC)O)C)C(C)C)C)CC(C)C)C)CC(C)C)C)C)C)CC(C)C)C)C(C)C)CC(C)C)C)C``` |
 | usmiles           | VARCHAR(4000)|                       | Unique SMILES representation                |
-| source            | SMALLINT     |                       | Reference to other databases (can be extended), defined: PUBCHEM = 0, CHEMSPIDER = 1, NORINE = 2, const PDB = 3, CHEBI = 4 |
+| source            | SMALLINT     |                       | Reference to other databases (can be extended), defined: PUBCHEM = 0, CHEMSPIDER = 1, NORINE = 2, const PDB = 3, CHEBI = 4, MSB = 5, DOI = 6, SIDEROPHORE_BASE = 7, LIPID_MAPS = 8, COCONUT = 9, NP_ATLAS = 10 |
 | identifier        | VARCHAR(255) |                      | Unique identifier of molecula in another database |
 | decays            | VARCHAR(255) |                      | Auxiliary variable for coloring decay points      |
 | unique_block_count| INT          | NOT NULL, DEFAULT 0  | Unique number of blocks used in sequence, used for similarity search |
@@ -92,7 +92,7 @@ The sequence is in the given Container and may have a SequenceFamily tag.
 | losses            | VARCHAR(255) |                       | Potencional losses ex.: ```NH3;CONH```      |
 | block_smiles      | VARCHAR(255) |                       | Description of molecula by SMILES format ex.: ```CC(C)C(C(=O)O)N``` |
 | usmiles           | VARCHAR(255) |                       | Description of molecula by SMILES format but in unique format       |
-| source            | SMALLINT     |                       | Reference to other databases (can be extended), defined: PUBCHEM = 0, CHEMSPIDER = 1, NORINE = 2, const PDB = 3, CHEBI = 4 (same as values in Sequence)|
+| source            | SMALLINT     |                       | Reference to other databases (can be extended), defined: PUBCHEM = 0, CHEMSPIDER = 1, NORINE = 2, const PDB = 3, CHEBI = 4, MSB = 5, DOI = 6, SIDEROPHORE_BASE = 7, LIPID_MAPS = 8, COCONUT = 9, NP_ATLAS = 10 (same as values in Sequence)|
 | identifier        | VARCHAR(255) |                       | Unique identifier of molecula in another database |
 | is_polyketide     | TINYINT(1)   | NOT NULL, DEFAULT 0   | Flag if block is polyketide or not, when block is polyketide, his name should starts with (-2H) |
 
