@@ -62,7 +62,7 @@ Then install dependecias via npm.
 
 `npm install`
 
-In file Constatns.ts you have to set up backend `ENDPOINT` and `URL_PREFIX` for the frontend. Optionally you can set up several decimal places for mass and set if ID is showing on tables. In Finder, you can set up a **proxy** in ENDPOINTS. Actually is proxy set in files NorineFinder and ChebiFinder on variable `ENDPOINT_URI`.
+In file Constatns.ts you have to set up backend `ENDPOINT` and `URL_PREFIX` for the frontend. Optionally you can set up several decimal places for mass and set if ID is showing on tables. In Finder, you can set up a **proxy** in ENDPOINTS. Actually is proxy set in files NorineFinder, ChebiFinder, CoconutFinder and NPAtlasFinder on variable `ENDPOINT_URI`.
 
 Run server by
 `npm start`
