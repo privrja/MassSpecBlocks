@@ -1,5 +1,5 @@
 # MassSpecBlocks
-MassSpecBlocks: Database of Sequences and Building Blocks of Microbial Metabolites for Mass Spectra Analysis is an open-source web application to manage own user databases of chemical structures like NRPs and to find structures on other chemical projects like [Pubchem](https://pubchem.ncbi.nlm.nih.gov), [ChemSpider](http://www.chemspider.com), [Norine](https://bioinfo.lifl.fr/norine/) and [ChEBI](https://www.ebi.ac.uk/chebi/downloadsForward.do). The application provides an export format for open source program [Cyclobranch](https://ms.biomed.cas.cz/cyclobranch/docs/html/) from Jiří Novák (Laboratory of Molecular Structure Characterization - Academy of Sciences of the Czech Republic).
+MassSpecBlocks: Database of Sequences and Building Blocks of Microbial Metabolites for Mass Spectra Analysis is an open-source web application to manage own user databases of chemical structures like NRPs and to find structures on other chemical projects like [Pubchem](https://pubchem.ncbi.nlm.nih.gov), [ChemSpider](http://www.chemspider.com), [Norine](https://bioinfo.lifl.fr/norine/), [ChEBI](https://www.ebi.ac.uk/chebi/downloadsForward.do), [COCONUT](https://coconut.naturalproducts.net) and [NP Atlas](https://www.npatlas.org). The application provides an export format for open source program [Cyclobranch](https://ms.biomed.cas.cz/cyclobranch/docs/html/) from Jiří Novák (Laboratory of Molecular Structure Characterization - Academy of Sciences of the Czech Republic).
 
 # Quick Links
 
@@ -22,7 +22,7 @@ How to run application localy for development is described in [Local.md](https:/
 
 Documentation of the deployment to server is in [Deploy.md](https://github.com/privrja/MassSpecBlocks/blob/main/Deploy.md). 
 
-When you approach to /api/doc on backend there is a documentation page for REST API.
+When you approach to /rest/doc on backend there is a documentation page for REST API.
 
 There is a tutorial to obtain [ChemSpider API key](https://github.com/privrja/MassSpecBlocks/blob/main/ChemSpiderKey.md).
 
