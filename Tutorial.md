@@ -4,23 +4,25 @@
 When you access the main page of the application.
 You can see a finder form on the right side.
 There you can choose in which chemical database you search and then choose search parameter.
-You can search in PubChem, ChemSpider (apikey needed, [how to obtain ChemspiderKey]()), ChEBI, Norine, and PDB.
+You can search in PubChem, ChemSpider (apikey needed, [how to obtain ChemspiderKey]()), ChEBI, Norine, PDB, COCONUT and NP Atlas.
 The search parameter is restricted by a selected chemical database.
 Next table shows search restrictions.
 In the Norine database, you can download all database data and then search in by attributes that are not provided in API, but this is **slow**.
 
 
-| Database   | API  | name    | SMILES  | formula | mass        | identifier |
-| ---------- | ---- | ------- | ------- | ------- | ----------- | ---------- |
-| Pubchem    | REST | **Yes** | **Yes** | **Yes** | No          | **Yes**    |
-| ChemSpider | REST | **Yes** | **Yes** | **Yes** | No (atomic) | **Yes**    |
-| ChEBI      | SOAP | **Yes** | **Yes** | **Yes** | **Yes**     | **Yes**    |
-| Norine     | REST | **Yes** | No      | Slow    | No          | **Yes**    |
-| PDB        | REST | No      | No      | No      | No          | **Yes**    |
+| Database   | API  | name    | SMILES  | formula | mass         | identifier |
+| ---------- | ---- | ------- | ------- | ------- | ------------ | ---------- |
+| Pubchem    | REST | **Yes** | **Yes** | **Yes** | No           | **Yes**    |
+| ChemSpider | REST | **Yes** | **Yes** | **Yes** | Yes (atomic) | **Yes**    |
+| ChEBI      | SOAP | **Yes** | **Yes** | **Yes** | **Yes**      | **Yes**    |
+| Norine     | REST | **Yes** | No      | Slow    | No           | **Yes**    |
+| PDB        | REST | No      | No      | No      | No           | **Yes**    |
+| COCONUT    | REST | **Yes** | **Yes** | **Yes** | No (mol)     | **Yes**    |
+| NP Atlas   | REST | **Yes** | **Yes** | **Yes** | **Yes**      | **Yes**    |
 
 
 When you fill source database and search param, the main remaining thing is to fill search param and click on the Find button.
-Now there are 3 possibilities what will happen.
+Now there are 3 possibilities what will happen (ZOI).
 Search not found anything, find one result, find more results.
 When the result is only one structure is automatically filed to form and when SMILES is found then the structure is drawn into the left side of the page.
 When there are more results is show under the form and you can choose one of them.
