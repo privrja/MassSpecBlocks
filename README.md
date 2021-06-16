@@ -28,7 +28,7 @@ There is a tutorial to obtain [ChemSpider API key](https://github.com/privrja/Ma
 
 # Versions
 
-Latest version is **Alpa** [1.0.1 Alpa backend](https://github.com/privrja/thesis/releases/tag/1.0.1) and [1.0.1 Alpa frontend](https://github.com/privrja/thesis-frontend-react/releases/tag/1.0.1), compatibile with SmilesDrawer [2.1.6 Evenstar](https://github.com/privrja/smilesDrawer/releases/tag/2.1.6)
+Latest version is **Alpa** [1.0.2 Alpa backend](https://github.com/privrja/thesis/releases/tag/1.0.2) and [1.0.2 Alpa frontend](https://github.com/privrja/thesis-frontend-react/releases/tag/1.0.2), compatibile with SmilesDrawer [2.1.6 Evenstar](https://github.com/privrja/smilesDrawer/releases/tag/2.1.6)
 
 More info about version compatibility you can find in file [Version.md](https://github.com/privrja/MassSpecBlocks/blob/main/Version.md)
 
